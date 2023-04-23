@@ -112,7 +112,6 @@ EOF
 cd "$CITADEL_ROOT"
 ./scripts/start || true
 
-
 cat <<EOF > "$CITADEL_ROOT"/statuses/update-status.json
 {"state": "success", "progress": 100, "description": "Successfully installed Citadel $RELEASE", "updateTo": ""}
 EOF

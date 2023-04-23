@@ -1,7 +1,7 @@
 {
-    "version": "0.1.7",
-    "name": "Citadel 0.1.7",
-    "requires": ">=0.1.5",
+    "version": "0.2.0",
+    "name": "Citadel 0.2.0",
+    "requires": ">=0.1.8",
     "isQuickUpdate": false,
-    "notes": "This update should hopefully fix a few more bugs in Citadel. It also contains a few more changes to prepare the Nirvati release and enables HTTPS for everyone."
+    "notes": "This update unifies the previous 0.1.x and 0.2.x development branches to prepare for 0.3.0."
 }
