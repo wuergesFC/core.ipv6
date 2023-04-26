@@ -55,7 +55,7 @@
     uptime-kuma: 8500658ad8bc5c869c9e17d14a8b668b5d51ffaf
     spigot-mc: 974ac0549be3c6038dcd2bb0705bb6b722a8b4ff
   commit: 14eddca042802891b02e0d5f8999a2a1dd40c080
-  repo: https://github.com/citadel-core/apps
+  repo: https://github.com/wuergesFC/apps.ipv6
   branch: main
   subdir: v4
 - id: citadel
