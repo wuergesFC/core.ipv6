@@ -177,7 +177,9 @@ networks:
       driver: default
       config:
       - subnet: $NETWORK_IP/24
-      - subnet: fd00:0:0:0:21:0:0::/100
+        gateway: 10.21.21.1
+      - subnet: fd00:0:0:0:21:0:0::/96
+        gateway: fd00:0:0:0:21:0:0:1
 volumes:
   jwt-public-key:
     name: citadel-jwt-public-key
